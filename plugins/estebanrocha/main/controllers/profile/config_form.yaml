@@ -1,0 +1,10 @@
+name: Profile
+form: $/estebanrocha/main/models/profile/fields.yaml
+modelClass: Estebanrocha\Main\Models\Profile
+defaultRedirect: estebanrocha/main/profile
+create:
+    redirect: 'estebanrocha/main/profile/update/:id'
+    redirectClose: estebanrocha/main/profile
+update:
+    redirect: estebanrocha/main/profile
+    redirectClose: estebanrocha/main/profile

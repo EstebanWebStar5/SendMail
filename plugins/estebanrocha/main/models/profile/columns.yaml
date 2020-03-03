@@ -1,0 +1,31 @@
+columns:
+    name:
+        label: name
+        type: text
+        searchable: true
+        sortable: true
+    surname:
+        label: surname
+        type: text
+        searchable: true
+        sortable: true
+    address:
+        label: address
+        type: text
+        searchable: true
+        sortable: true
+    city:
+        label: city
+        type: text
+        searchable: true
+        sortable: true
+    country:
+        label: country
+        type: text
+        searchable: true
+        sortable: true
+    password:
+        label: password
+        type: text
+        searchable: true
+        sortable: true

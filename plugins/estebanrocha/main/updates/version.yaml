@@ -1,0 +1,11 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table estebanrocha_main_profile'
+    - builder_table_create_estebanrocha_main_profile.php
+1.0.3:
+    - 'Updated table estebanrocha_main_profile'
+    - builder_table_update_estebanrocha_main_profile.php
+1.0.4:
+    - 'Updated table estebanrocha_main_profile'
+    - builder_table_update_estebanrocha_main_profile_2.php

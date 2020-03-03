@@ -1,0 +1,25 @@
+fields:
+    name:
+        label: name
+        span: auto
+        type: text
+    surname:
+        label: surname
+        span: auto
+        type: text
+    address:
+        label: address
+        span: auto
+        type: text
+    city:
+        label: city
+        span: auto
+        type: text
+    country:
+        label: country
+        span: auto
+        type: text
+    password:
+        label: Password
+        span: auto
+        type: password

@@ -1,0 +1,11 @@
+plugin:
+    name: 'estebanrocha.main::lang.plugin.name'
+    description: 'estebanrocha.main::lang.plugin.description'
+    author: EstebanRocha
+    icon: oc-icon-adjust
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: profile
+        url: estebanrocha/main/profile
+        icon: icon-user

@@ -1,0 +1,6 @@
+plugin:
+    name: 'estebanrocha.login::lang.plugin.name'
+    description: 'estebanrocha.login::lang.plugin.description'
+    author: EstebanRocha
+    icon: oc-icon-adjust
+    homepage: ''

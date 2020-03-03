@@ -1,0 +1,4 @@
+title: Profile
+modelClass: Estebanrocha\Main\Models\Profile
+toolbar:
+    buttons: reorder_toolbar

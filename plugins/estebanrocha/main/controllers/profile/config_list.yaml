@@ -1,0 +1,12 @@
+list: $/estebanrocha/main/models/profile/columns.yaml
+modelClass: Estebanrocha\Main\Models\Profile
+title: Profile
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'estebanrocha/main/profile/update/:id'

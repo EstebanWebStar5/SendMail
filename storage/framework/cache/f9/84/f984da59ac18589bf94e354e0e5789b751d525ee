@@ -1,0 +1,151 @@
+1583230722a:1:{s:11:"default.htm";a:6:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:3323:"description = "Default layout"
+==
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>October CMS - {{ this.page.title }}</title>
+        <meta name="description" content="{{ this.page.meta_description }}">
+        <meta name="title" content="{{ this.page.meta_title }}">
+        <meta name="author" content="OctoberCMS">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="generator" content="OctoberCMS">
+        <link rel="icon" type="image/png" href="{{ 'assets/images/october.png'|theme }}">
+        <link href="{{ 'assets/css/vendor.css'|theme }}" rel="stylesheet">
+        <link href="{{ 'assets/css/theme.css'|theme }}" rel="stylesheet">
+        {% styles %}
+    </head>
+    <body>
+
+        <!-- Header -->
+        <header id="layout-header">
+            {% partial 'site/header' %}
+        </header>
+
+        <!-- Content -->
+        <section id="layout-content">
+            {% page %}
+        </section>
+
+        <!-- Footer -->
+
+        <!-- Scripts -->
+        <script src="{{ 'assets/vendor/jquery.js'|theme }}"></script>
+        <script src="{{ 'assets/vendor/bootstrap.js'|theme }}"></script>
+        <script src="{{ 'assets/javascript/app.js'|theme }}"></script>
+        <script>
+            $(document).ready(function(){
+                $("#myModal").modal('show');
+                $('button').click(function(){
+                    $("#myModal").modal('hide');
+                    $(".container").css('display','block');
+                    $("#name").text($("#profile-name").val());
+                    $("#surname").text($("#profile-surname").val());
+                    $("#address").text($("#profile-address").val());
+                    $("#city").text($("#profile-city").val());
+                    $("#country").text($("#profile-country").val());
+                    $("#password").text($("#profile-password").val());
+                    });
+                $("#updateProfile").modal('hide');
+                $("#editProfile").click(function(){
+                    $("#updateProfile").modal('show');
+                    $("#update-name").val($("#name").text());
+                    $("#update-surname").val($("#surname").text());
+                    $("#update-address").val($("#address").text());
+                    $("#update-city").val($("#city").text());
+                    $("#update-country").val($("#country").text());
+                    $("#update-password").val($("#password").text());
+                    
+                });
+                $("#update").click(function(){
+                    $("#updateProfile").modal('hide');
+                    $(".container").css('display','block');
+                    $("#name").text($("#update-name").val());
+                    $("#surname").text($("#update-surname").val());
+                    $("#address").text($("#update-address").val());
+                    $("#city").text($("#update-city").val());
+                    $("#country").text($("#update-country").val());
+                    $("#password").text($("#update-password").val());
+                    
+                });
+            });
+        </script>
+        {% framework extras %}
+        {% scripts %}
+
+    </body>
+</html>";s:5:"mtime";i:1583178106;s:6:"markup";s:3287:"<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>October CMS - {{ this.page.title }}</title>
+        <meta name="description" content="{{ this.page.meta_description }}">
+        <meta name="title" content="{{ this.page.meta_title }}">
+        <meta name="author" content="OctoberCMS">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="generator" content="OctoberCMS">
+        <link rel="icon" type="image/png" href="{{ 'assets/images/october.png'|theme }}">
+        <link href="{{ 'assets/css/vendor.css'|theme }}" rel="stylesheet">
+        <link href="{{ 'assets/css/theme.css'|theme }}" rel="stylesheet">
+        {% styles %}
+    </head>
+    <body>
+
+        <!-- Header -->
+        <header id="layout-header">
+            {% partial 'site/header' %}
+        </header>
+
+        <!-- Content -->
+        <section id="layout-content">
+            {% page %}
+        </section>
+
+        <!-- Footer -->
+
+        <!-- Scripts -->
+        <script src="{{ 'assets/vendor/jquery.js'|theme }}"></script>
+        <script src="{{ 'assets/vendor/bootstrap.js'|theme }}"></script>
+        <script src="{{ 'assets/javascript/app.js'|theme }}"></script>
+        <script>
+            $(document).ready(function(){
+                $("#myModal").modal('show');
+                $('button').click(function(){
+                    $("#myModal").modal('hide');
+                    $(".container").css('display','block');
+                    $("#name").text($("#profile-name").val());
+                    $("#surname").text($("#profile-surname").val());
+                    $("#address").text($("#profile-address").val());
+                    $("#city").text($("#profile-city").val());
+                    $("#country").text($("#profile-country").val());
+                    $("#password").text($("#profile-password").val());
+                    });
+                $("#updateProfile").modal('hide');
+                $("#editProfile").click(function(){
+                    $("#updateProfile").modal('show');
+                    $("#update-name").val($("#name").text());
+                    $("#update-surname").val($("#surname").text());
+                    $("#update-address").val($("#address").text());
+                    $("#update-city").val($("#city").text());
+                    $("#update-country").val($("#country").text());
+                    $("#update-password").val($("#password").text());
+                    
+                });
+                $("#update").click(function(){
+                    $("#updateProfile").modal('hide');
+                    $(".container").css('display','block');
+                    $("#name").text($("#update-name").val());
+                    $("#surname").text($("#update-surname").val());
+                    $("#address").text($("#update-address").val());
+                    $("#city").text($("#update-city").val());
+                    $("#country").text($("#update-country").val());
+                    $("#password").text($("#update-password").val());
+                    
+                });
+            });
+        </script>
+        {% framework extras %}
+        {% scripts %}
+
+    </body>
+</html>";s:4:"code";N;s:11:"description";s:14:"Default layout";}}
